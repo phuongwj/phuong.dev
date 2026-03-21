@@ -16,22 +16,35 @@ import { IoIosDocument } from "react-icons/io";
       class="w-24 h-24 rounded-full object-cover"
     />
 
-    <h1 class="text-3xl font-bold text-gray-900">Phuong Pham</h1>
-    <p class="text-gray-500 text-md">3rd Year Computer Science Student @ Dalhousie University</p>
+    <p class="text-3xl font-bold text-white/90">Phuong Pham</p>
+    <p class="text-white/55 text-md">3rd Year Computer Science Student @ Dalhousie University</p>
 
     <div class="flex items-center gap-2 flex-wrap mt-1">
-      <a href="https://github.com/phuongwj" aria-label="GitHub" target="_blank" class="w-9 h-9 flex items-center justify-center text-gray-700 text-xl"><IoLogoGithub /></a>
-      <a href="https://www.linkedin.com/in/phuongwj/" aria-label="LinkedIn" target="_blank" class="w-9 h-9 flex items-center justify-center text-gray-700 text-xl"><FaLinkedin /></a>
-      <a href="/resume.pdf" aria-label="Resume" target="_blank" class="w-9 h-9 flex items-center justify-center text-gray-700 text-xl"><IoIosDocument /></a>
+      <a href="https://github.com/phuongwj" aria-label="GitHub" target="_blank" class="social-icon w-9 h-9 flex items-center justify-center text-xl" style="--hover-color: #FFFFFF;"><IoLogoGithub /></a>
+      <a href="https://www.linkedin.com/in/phuongwj/" aria-label="LinkedIn" target="_blank" class="social-icon w-9 h-9 flex items-center justify-center text-xl" style="--hover-color: #0A66C2;"><FaLinkedin /></a>
+      <a href="/resume.pdf" aria-label="Resume" target="_blank" class="social-icon w-9 h-9 flex items-center justify-center text-xl" style="--hover-color: #4CAF50;"><IoIosDocument /></a>
     </div>
   </div>
 
   <!-- About Card -->
-  <div class="border border-gray-200 rounded-2xl p-6 mt-4">
-    <h2 class="text-base font-bold text-gray-900 mb-3">About me</h2>
-    <p class="text-sm text-gray-500 leading-relaxed">
+  <div class="border border-white/10 rounded-2xl p-6 mt-4">
+    <h2 class="text-base font-bold text-white/90 mb-3">About me</h2>
+    <p class="text-sm text-white/55 leading-relaxed">
       Originally from Ho Chi Minh City, Vietnam, now based in Halifax, Nova Scotia, Canada. I'm passionate about learning and working in areas
       of Software Engineering, and AI/ML.
     </p>
   </div>
 </section>
+
+<style>
+  .social-icon {
+    color: rgba(255, 255, 255, 0.45);
+    transition: color 0.3s, filter 0.3s, transform 0.3s;
+  }
+
+  .social-icon:hover {
+    color: var(--hover-color);
+    filter: drop-shadow(0 0 6px var(--hover-color));
+    transform: scale(1.1);
+  }
+</style>
