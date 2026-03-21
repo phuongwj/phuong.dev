@@ -22,7 +22,7 @@ export const experience = [
         position: "Web Developer Intern",
         duration: "6/2024 - 8/2024",
         image: "/logos/logo_dal.png",
-        description: "One line description here",
+        description: "Developed responsive, accessible web interfaces with bilingual support",
         stack: ["JavaScript", "React", "Sass", "Framer Motion", "i18n"]
     },
     {
@@ -30,7 +30,7 @@ export const experience = [
         position: "Undergraduate Teaching Assistant",
         duration: "9/2024 - 5/2025",
         image: "/logos/logo_dal.png",
-        description: "One line description here",
+        description: "Intro to Computer Programming (CSCI 1105), Computer Science (CSCI 1110), Web Development (CSCI 1170)",
         stack: ["Java", "JavaScript"]
     },
     {
@@ -38,7 +38,7 @@ export const experience = [
         position: "Software Developer Intern",
         duration: "5/2025 - 8/2025",
         image: "/logos/logo_sprypoint.png",
-        description: "One line description here",
+        description: "Built and maintained PDF report generation for water utilities",
         stack: ["Java", "JavaScript", "Play Framework", "KnockoutJS", "jQuery"]
     },
     {
@@ -46,7 +46,7 @@ export const experience = [
         position: "Full-Stack Developer Intern",
         duration: "1/2026 - Present",
         image: "/logos/logo_praxes.jpg",
-        description: "One line description here",
+        description: "Built modular backend APIs for legacy codebase migration",
         stack: ["Go", "TypeScript", "Vue.js", "PostgreSQL"]
     }
 ]

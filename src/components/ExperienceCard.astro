@@ -18,10 +18,10 @@ import { experience, techColors } from '../utils/data';
       <div class="flex-1 min-w-0">
         <div class="flex items-center justify-between">
           <div>
-            <p class="text-heading font-semibold text-base leading-tight">{exp.position}</p>
-            <p class="text-body text-sm mt-0.5">{exp.company}</p>
+            <p class="text-muted group-hover:text-heading font-semibold text-base leading-tight transition-colors duration-300">{exp.position}</p>
+            <p class="text-muted group-hover:text-body text-sm mt-0.5 transition-colors duration-300">{exp.company}</p>
           </div>
-          <span class="text-muted text-sm font-mono shrink-0">{exp.duration}</span>
+          <span class="text-muted group-hover:text-muted text-sm font-mono shrink-0 transition-colors duration-300">{exp.duration}</span>
         </div>
 
         <!-- Expandable section -->

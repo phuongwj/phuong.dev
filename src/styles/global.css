@@ -22,11 +22,11 @@ body {
 }
 
 @theme {
-  --color-heading: rgba(255, 255, 255, 0.92);
-  --color-body: rgba(255, 255, 255, 0.50);
+  --color-heading: #DDE4F0;
+  --color-body: rgba(255, 255, 255, 0.5);
   --color-muted: rgba(255, 255, 255, 0.3);
   --color-subtle: rgba(255, 255, 255, 0.15);
   --color-surface-hover: rgba(255, 255, 255, 0.05);
-  --color-border-default: rgba(255, 255, 255, 0.08);
+  --color-border-default: rgba(255, 255, 255, 0.14);
   --color-border-hover: rgba(255, 255, 255, 0.1);
 }
