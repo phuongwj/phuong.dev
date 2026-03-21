@@ -1,3 +1,32 @@
 @import "tailwindcss";
 
-/* Add any global custom styles here */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background: linear-gradient(135deg, #060A19 0%, #080e20 30%, #0d1329 60%, #131e3d 100%);
+  background-color: #060A19;
+}
+
+.exp-extra {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition: grid-template-rows 0.32s ease, opacity 0.32s ease-in;
+}
+
+.exp-row:hover .exp-extra {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+@theme {
+  --color-heading: rgba(255, 255, 255, 0.92);
+  --color-body: rgba(255, 255, 255, 0.50);
+  --color-muted: rgba(255, 255, 255, 0.3);
+  --color-subtle: rgba(255, 255, 255, 0.15);
+  --color-surface-hover: rgba(255, 255, 255, 0.05);
+  --color-border-default: rgba(255, 255, 255, 0.08);
+  --color-border-hover: rgba(255, 255, 255, 0.1);
+}
