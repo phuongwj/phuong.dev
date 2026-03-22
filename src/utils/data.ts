@@ -50,3 +50,48 @@ export const experience = [
         stack: ["Go", "TypeScript", "Vue.js", "PostgreSQL"]
     }
 ]
+
+export const projects = [
+    {
+        name: "Orrery Web App",
+        description: "Solar system simulator",
+        image: "/placeholder.jpg",
+        stack: ["React", "Node.js", "Express.js", "Horizon API"],
+        github: "https://github.com/ElliotGBA/spaceapps2024"
+    },
+    {
+        name: "Bath Time!",
+        description: "Humorous game promoting hygiene for stereotypical CS students",
+        image: "/placeholder.jpg",
+        stack: ["Godot", "GDScript", "Inkscape"],
+        github: "https://github.com/ImpRoosta/GameJam2025Bubbles"
+    },
+    {
+        name: "My Turn",
+        description: "Real-time meeting participation analyzer",
+        image: "/placeholder.jpg",
+        stack : ["Python", "Flask", "WhisperX", "React", "Docker"],
+        github: "https://github.com/niaxidos/MyTurn"
+    },
+    {
+        name: "Women in Technology Society Bulletin Board",
+        description: "Interactive web app for sharing self-drawn portraits and bios at a society expo",
+        image: "/placeholder.jpg",
+        stack: ["React", "Supabase"],
+        github: "https://github.com/phuongwj/wits-bulletin-board"
+    },
+    {
+        name: "Dalhousie Microwaves",
+        description: "Find, rate, and explore Dalhousie's campus microwaves",
+        image: "/placeholder.jpg",
+        stack: ["React", "Node.js", "Express.js"],
+        github: "https://github.com/phuongwj/dal-microwaves"
+    },
+    {
+        name: "Dalhousie Syllabi Database",
+        description: "Browse, search, and contribute Dalhousie course syllabi",
+        image: "/placeholder.jpg",
+        stack: ["AWS S3", "Gin", "Astro", "React"],
+        github: "https://github.com/phuongwj/dal-syllabus-db"
+    }
+]
