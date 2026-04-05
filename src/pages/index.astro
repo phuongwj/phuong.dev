@@ -3,8 +3,10 @@ import Hero from '../components/Hero.astro';
 import Experience from '../components/Experience.astro';
 import Project from '../components/Project.astro';
 import Stack from '../components/Stack.astro';
+import { Stars } from '../components/Stars';
 
 import Layout from '../layouts/Layout.astro';
+
 ---
 
 <Layout>
@@ -12,4 +14,5 @@ import Layout from '../layouts/Layout.astro';
 	<Experience />
 	<Project />
 	<Stack />
+	<Stars client:load/>
 </Layout>
