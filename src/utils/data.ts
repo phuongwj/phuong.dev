@@ -51,6 +51,12 @@ export const experience = [
     }
 ]
 
+export const stack = {
+    languages: ["JavaScript", "TypeScript", "Java", "Python", "Go", "GDScript"],
+    frameworks: ["React", "Vue.js", "Astro", "Next.js", "Flask", "Spring", "Gin", "Express.js"],
+    tools: ["Docker", "PostgreSQL", "AWS S3", "Git", "Supabase"],
+};
+
 export const projects = [
     {
         name: "Orrery Web App",

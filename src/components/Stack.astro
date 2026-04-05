@@ -1,0 +1,20 @@
+---
+import { stack } from '../utils/data';
+---
+
+<section class="max-w-xl mx-auto mt-14 px-4 font-sans">
+  <p class="text-2xl font-bold text-heading mb-6">Stack</p>
+
+  {Object.entries(stack).map(([category, items]) => (
+    <div class="mb-5">
+      <p class="text-muted text-[11px] font-mono uppercase tracking-wider mb-3">{category}</p>
+      <div class="flex flex-wrap gap-2">
+        {items.map((tech) => (
+          <span class="text-body text-xs px-3 py-1 rounded-full border border-border-default bg-white/3 transition-colors duration-300 hover:bg-white/6">
+            {tech}
+          </span>
+        ))}
+      </div>
+    </div>
+  ))}
+</section>
