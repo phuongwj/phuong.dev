@@ -60,20 +60,6 @@ export const stack = {
 
 export const projects = [
     {
-        name: "Orrery Web App",
-        description: "Solar system simulator",
-        image: "/placeholder.jpg",
-        stack: ["React", "Node.js", "Express.js", "Horizon API"],
-        github: "https://github.com/ElliotGBA/spaceapps2024"
-    },
-    {
-        name: "Bath Time!",
-        description: "Humorous game promoting hygiene for stereotypical CS students",
-        image: "/placeholder.jpg",
-        stack: ["Godot", "GDScript", "Inkscape"],
-        github: "https://github.com/ImpRoosta/GameJam2025Bubbles"
-    },
-    {
         name: "My Turn",
         description: "Real-time meeting participation analyzer",
         image: "/placeholder.jpg",
