@@ -10,7 +10,7 @@ import { stack } from '../utils/data';
       <p class="text-muted text-[11px] font-mono uppercase tracking-wider mb-3">{category}</p>
       <div class="flex flex-wrap gap-2">
         {items.map((tech) => (
-          <span class="text-body text-xs px-3 py-1 rounded-full border border-border-default bg-white/3 transition-colors duration-300 hover:bg-white/6">
+          <span class="text-body text-xs px-3 py-1 rounded-full border border-border-default bg-transparent transition-all duration-300 hover:border-white hover:text-white hover:-translate-y-0.5 cursor-default">
             {tech}
           </span>
         ))}

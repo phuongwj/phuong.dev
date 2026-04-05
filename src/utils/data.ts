@@ -52,9 +52,10 @@ export const experience = [
 ]
 
 export const stack = {
-    languages: ["JavaScript", "TypeScript", "Java", "Python", "Go", "GDScript"],
-    frameworks: ["React", "Vue.js", "Astro", "Next.js", "Flask", "Spring", "Gin", "Express.js"],
-    tools: ["Docker", "PostgreSQL", "AWS S3", "Git", "Supabase"],
+    'languages': ["Java", "Go", "JavaScript", "TypeScript", "Python", "PHP", "SQL", "HTML/CSS"],
+    'frameworks/libraries': ["React", "Vue.js", "Astro", "Gin", "Node.js", "Express.js"],
+    'devops/cloud': ["Docker", "GCP", "AWS", "Terraform"],
+    'developer tools': ["Git", "GitHub", "PostgreSQL", "MySQL"]
 };
 
 export const projects = [
