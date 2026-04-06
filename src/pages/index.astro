@@ -3,6 +3,7 @@ import Hero from '../components/Hero.astro';
 import Experience from '../components/Experience.astro';
 import Project from '../components/Project.astro';
 import Stack from '../components/Stack.astro';
+import GitHubContributions from '../components/footer/GitHubContributions.astro';
 import { Stars } from '../components/Stars';
 
 import Layout from '../layouts/Layout.astro';
@@ -10,9 +11,13 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
+	<Stars client:load/>
 	<Hero />
 	<Experience />
 	<Project />
 	<Stack />
-	<Stars client:load/>
+	<div class="max-w-xl mx-auto mt-20 px-4">
+		<hr class="mb-8 border-t border-border-default my-1" />
+		<GitHubContributions />
+	</div>
 </Layout>
